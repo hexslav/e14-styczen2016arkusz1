@@ -1,0 +1,35 @@
+header{
+	color:white;
+	background-color:#3B85AA;
+	padding:10px;
+	font-family:arial;
+	text-align:center;
+}
+footer{
+	color:white;
+	background-color:#3B85AA;
+	padding:10px;
+	font-family:arial;
+	text-align:center;
+	clear:both;
+}
+#panel_lewy{
+	text-align:center;
+	width:80%;
+	height:450px;
+	
+}
+#panel_prawy{
+	float:right;
+	color:white;
+	width:20%;
+	height:450px;
+	background-color: #4E9BB5;
+}
+a{
+	color:white;
+}
+#obraz{
+	border:2px;
+	vspace:125px; 
+}

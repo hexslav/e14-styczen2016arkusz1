@@ -1,0 +1,5 @@
+SELECT tytul FROM `ksiazki` WHERE rokwydania>1970
+
+SELECT K.tytul , A.Imie, A.nazwisko FROM `ksiazki` K,autorzy A WHERE K.autorid=A.idautor
+
+SELECT E.idegzemplarz, K.tytul FROM ksiazki K, egzemplarze E WHERE K.IDKsiazki=E.KsiazkaID AND dowypozyczenia=1
